@@ -1,0 +1,28 @@
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+#gallery {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.gallery__item {
+  width: 30%;
+  margin-right: 10px;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+.gallery__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
