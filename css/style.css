@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+.task-list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navigation {
+  width: 600px;
+  margin: 0 auto;
+}
+h1,
+.pageNav {
+  text-align: center;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 24px;
+}
+.pageNav {
+  font-size: 20px;
+  font-weight: 400;
+}
+.task-list {
+  display: flex;
+  justify-content: space-between;
+}
+.task-list__item a {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+a:hover,
+a:focus {
+  color: #e20a0a;
+  fill: #e20a0a;
+}
